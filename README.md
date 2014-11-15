@@ -120,7 +120,7 @@ npm run build-line
 npm run build-triangulate
 ```
 
-Would work with any tool that consumes CommonJS (i.e. jspm, DuoJS, browserify, webpack).
+Should work with any tool that consumes CommonJS (i.e. jspm, DuoJS, browserify, webpack).
 
 ## License
 
