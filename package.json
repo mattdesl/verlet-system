@@ -12,7 +12,8 @@
   "dependencies": {
     "as-number": "^1.0.0",
     "clamp": "^1.0.1",
-    "gl-matrix": "^2.1.0"
+    "gl-vec2": "^1.0.0",
+    "gl-vec3": "^1.0.2"
   },
   "devDependencies": {
     "add-event-listener": "0.0.1",
