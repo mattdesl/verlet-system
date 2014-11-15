@@ -65,7 +65,7 @@ function update(width, height, dt) {
         var s = 0.05
 
         //get direction of mouse to this particle
-        vec.sub(dir, mouse, p.position)
+        vec.subtract(dir, mouse, p.position)
         vec.normalize(dir, dir)
 
         //perform some mouse motion on the vertices
