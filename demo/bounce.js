@@ -11,6 +11,7 @@ function render(ctx, width, height, dt) {
     ctx.clearRect(0, 0, width, height)
 
     world.max = [width, height]
+    world.min = [0, 0]
     world.integratePoint(point, dt/1000)
 
     ctx.beginPath()
@@ -21,7 +22,7 @@ function render(ctx, width, height, dt) {
 function start(ctx, width, height) {
     world = World({ 
         gravity: [500, 500],
-        bounce: 0.5 //collision friction
+        // bounce: 0.5 //collision friction
     })
     
     point = Point({ 
