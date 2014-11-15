@@ -36,6 +36,13 @@ fuction render() {
 
 Typically used alongside [verlet-constraint](https://www.npmjs.org/package/verlet-constraint) and [verlet-point](https://www.npmjs.org/package/verlet-point).
 
+By default, assumes 2D and points with `[x, y]`. You can require an explicit dimension like so: 
+
+```js
+var World2D = require('verlet-system/2d') //points [x, y]
+var World3D = require('verlet-system/3d') //points [x, y, z]
+```
+
 PRs for fixes/improvements welcome.
 
 ### demos
@@ -58,13 +65,6 @@ var point = {
 ```
 
 Points with a mass of 0 are considered "unmovable". `radius` is used for collision testing against `min` and `max`, but different applications may choose to ignore this. 
-
-By default, assumes 2D and points with `[x, y]`. You can require an explicit dimension like so: 
-
-```js
-var World2D = require('verlet-system/2d') //points [x, y]
-var World3D = require('verlet-system/3d') //points [x, y, z]
-```
 
 ## bounded collisions
 
