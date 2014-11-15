@@ -10,18 +10,15 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
-    "array-range": "^1.0.1",
     "as-number": "^1.0.0",
-    "canvas-testbed": "^1.0.3",
     "clamp": "^1.0.1",
-    "gl-matrix": "^2.1.0",
-    "smoothstep": "^1.0.1",
-    "vectors": "^0.1.0",
-    "verlet-constraint": "^1.0.2",
-    "verlet-point": "^1.2.0"
+    "gl-matrix": "^2.1.0"
   },
   "devDependencies": {
     "add-event-listener": "0.0.1",
+    "verlet-constraint": "^1.0.2",
+    "verlet-point": "^1.2.0",
+    "smoothstep": "^1.0.1",
     "array-range": "^1.0.1",
     "canvas-testbed": "^1.0.2",
     "color-style": "^1.0.0",
