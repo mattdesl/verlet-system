@@ -11,12 +11,14 @@ var Point = require('verlet-point')
 var array = require('array-range')
 var random = require('randf')
 
+//create a world where points stay within window bounds
 var world = require('verlet-system')({ 
     gravity: [0, 500],
+    min: [0, 0],
     max: [width, height]
 })
 
-//create 500 points
+//create 500 points scattered around page
 var points = array(500).map(function() {
     return Point({ 
         position: [ random(0, width), random(0, height) ]
@@ -27,7 +29,7 @@ var points = array(500).map(function() {
 fuction render() {
     //step the physics
     world.integrate(points, dt)
-
+    
     drawPoints(points)
 }
 ```

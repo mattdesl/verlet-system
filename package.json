@@ -9,7 +9,6 @@
     "email": "dave.des@gmail.com",
     "url": "https://github.com/mattdesl"
   },
-  "private": true,
   "dependencies": {
     "array-range": "^1.0.1",
     "as-number": "^1.0.0",
