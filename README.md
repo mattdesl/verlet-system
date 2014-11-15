@@ -56,7 +56,7 @@ See the [demos](demo/) folder. The demos are [run](#running-demos) with beefy.
 
 You can use [verlet-point](https://www.npmjs.org/package/verlet-point), or just bare objects with the following structure:
 
-```
+```js
 var point = {
     position: [x, y],     //required
     previous: [x, y],     //required
