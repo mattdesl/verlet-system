@@ -129,11 +129,9 @@ This is not meant to be as feature-complete as choices like [verlet-js](https://
 - works in 2D or 3D
 - no assumptions about rendering (i.e. works in WebGL, SVG, etc)
 - no assumptions about interactions or geometries
-- modular, e.g. user may not need to use constraints (as in `triangulate` demo) 
+- tiny and modular (3kb-6kb depending on what you require), e.g. you may not need constraints (as in the `triangulate` demo)
 - works on bare objects and arrays, easy to build your own systems on top of
 - uses a bounding box rather than just a Y value for "floor"
-
-Once gl-matrix is split into gl-vec2 and gl-vec3, the final size will be far smaller.
 
 ## License
 
