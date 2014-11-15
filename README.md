@@ -43,21 +43,21 @@ PRs for fixes/improvements welcome.
 - [triangulate](http://mattdesl.github.io/verlet-system/demo/triangulate.html) - mouse interactions
 - [line](http://mattdesl.github.io/verlet-system/demo/line.html) - using constraints
 
-### bare objects
+### verlet-point
 
-Also works on bare objects with the following structure:
+You can use [verlet-point](https://www.npmjs.org/package/verlet-point), or just bare objects with the following structure:
 
 ```
 var point = {
-    position: [x, y],
-    previous: [x, y],
-    acceleration: [x, y],
-    mass: 1     //optional, will default to 1.0
-    radius: 25  //optional, will default to 0.0
+    position: [x, y],     //required
+    previous: [x, y],     //required
+    acceleration: [x, y], //required
+    mass: 1               //optional, will default to 1.0
+    radius: 25            //optional, will default to 0.0
 }
 ```
 
-Points with a mass of 0 are considered "unmovable". Radius is only used for collision testing against `min` and `max`, but different applications may choose to ignore this. 
+Points with a mass of 0 are considered "unmovable". `radius` is used for collision testing against `min` and `max`, but different applications may choose to ignore this. 
 
 By default, assumes 2D and points with `[x, y]`. You can require an explicit dimension like so: 
 
