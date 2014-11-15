@@ -1,6 +1,6 @@
 {
   "name": "verlet-system",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "2D and 3D verlet integration",
   "main": "2d.js",
   "license": "MIT",
