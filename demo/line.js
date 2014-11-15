@@ -2,8 +2,8 @@ require('canvas-testbed')(render, start)
 
 var World = require('../')
 var vec = {
-    scale: require('vec2/scale'),
-    add: require('vec2/add')
+    scale: require('gl-vec2/scale'),
+    add: require('gl-vec2/add')
 }
 var array = require('array-range')
 var random = require('randf')
