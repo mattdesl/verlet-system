@@ -1,5 +1,0 @@
-
-
-function solveSystem(vertices) {
-    // vertices
-}
