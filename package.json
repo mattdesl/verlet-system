@@ -38,8 +38,8 @@
     "test": "node test.js",
     "line": "beefy --index=./demo/dev.html ./demo/line.js",
     "triangulate": "beefy --index=./demo/dev.html ./demo/triangulate.js",
-    "build-triangulate": "browserify demo/triangulate.js | uglifyjs -cm > demo/static/triangulate.js",
-    "build-line": "browserify demo/line.js | uglifyjs -cm > demo/static/line.js"
+    "build-triangulate": "mkdir -p demo/static && browserify demo/triangulate.js | uglifyjs -cm > demo/static/triangulate.js",
+    "build-line": "mkdir -p demo/static && browserify demo/line.js | uglifyjs -cm > demo/static/line.js"
   },
   "keywords": [
     "verlet",
