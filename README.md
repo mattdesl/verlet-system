@@ -2,7 +2,7 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-![img](http://i.imgur.com/zBwknK0.png)
+![img](http://i.imgur.com/ZzGLmJE.png)
 
 A tiny 2D/3D verlet physics system.
 
