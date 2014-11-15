@@ -2,7 +2,7 @@
 require('canvas-testbed')(render, start)
 
 
-var vec = require('gl-matrix').vec2
+var vec = require('gl-vec2')
 var array = require('array-range')
 
 var smoothstep = require('smoothstep')
