@@ -33,7 +33,8 @@
   },
   "scripts": {
     "test": "node test.js",
-    "line": "beefy --index=./demo/line.html ./demo/line.js"
+    "line": "beefy --index=./demo/line.html ./demo/line.js",
+    "build-line": "browserify demo/line.js | uglifyjs -cm > demo/static/line.js"
   },
   "keywords": [
     "verlet",
