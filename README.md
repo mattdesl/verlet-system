@@ -47,6 +47,8 @@ PRs for fixes/improvements welcome.
 
 ### demos
 
+See the [demos](demo/) folder. The demos are [run](#running-demos) with beefy.
+
 - [triangulate](http://mattdesl.github.io/verlet-system/demo/triangulate.html) - mouse interactions
 - [line](http://mattdesl.github.io/verlet-system/demo/line.html) - using constraints
 
@@ -98,6 +100,27 @@ Integrates the list of "points" with the given step (typically in seconds).
 #### `system.integratePoint(point, step)`
 
 Integrates a single "point".
+
+## running demos
+
+```sh
+git clone https://github.com/mattdesl/verlet-system.git
+cd verlet-system
+npm install
+
+# if you haven't got these tools,
+# install them globally
+npm install browserify beefy uglify-js -g
+
+# now run or build any of the demos
+npm run line 
+npm run triangulate
+
+npm run build-line
+npm run build-triangulate
+```
+
+Would work with any tool that consumes CommonJS (i.e. jspm, DuoJS, browserify, webpack).
 
 ## License
 
