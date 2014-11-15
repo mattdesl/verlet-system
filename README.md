@@ -32,6 +32,17 @@ fuction render() {
 }
 ```
 
+Typically used alongside [verlet-constraint](https://www.npmjs.org/package/verlet-constraint) and [verlet-point](https://www.npmjs.org/package/verlet-point).
+
+PRs for fixes/improvements welcome.
+
+### demos
+
+- [triangulate](http://mattdesl.github.io/verlet-system/demo/triangulate.html) - mouse interactions
+- [line](http://mattdesl.github.io/verlet-system/demo/line.html) - using constraints
+
+### bare objects
+
 Also works on bare objects with the following structure:
 
 ```
@@ -52,8 +63,6 @@ By default, assumes 2D and points with `[x, y]`. You can require an explicit dim
 var World2D = require('verlet-system/2d') //points [x, y]
 var World3D = require('verlet-system/3d') //points [x, y, z]
 ```
-
-PRs for robustness/fixes are welcome.
 
 ## bounded collisions
 
