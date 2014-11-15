@@ -50,7 +50,7 @@ PRs for fixes/improvements welcome.
 - [triangulate](http://mattdesl.github.io/verlet-system/demo/triangulate.html) - mouse interactions
 - [line](http://mattdesl.github.io/verlet-system/demo/line.html) - using constraints
 
-### verlet-point
+### points
 
 You can use [verlet-point](https://www.npmjs.org/package/verlet-point), or just bare objects with the following structure:
 
