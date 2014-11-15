@@ -91,7 +91,7 @@ Creates a new system with the specified options.
 - `min` the minimum bounds vector, defaults to null (i.e. negative infinity)
 - `max` the maximum bounds vector, defaults to null (i.e. positive infinity)
 - `friction` the air friction, defaults to 0.98
-- `bounce` the friction with collision edges i.e. "bounciness"
+- `bounce` the friction with collision edges, i.e. "bounciness", defaults to 1.0
 
 #### `system.integrate(points, step)`
 
