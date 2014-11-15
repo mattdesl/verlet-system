@@ -17,9 +17,12 @@
     "clamp": "^1.0.1",
     "gl-matrix": "^2.1.0",
     "smoothstep": "^1.0.1",
-    "vectors": "^0.1.0"
+    "vectors": "^0.1.0",
+    "verlet-constraint": "^1.0.2",
+    "verlet-point": "^1.2.0"
   },
   "devDependencies": {
+    "add-event-listener": "0.0.1",
     "array-range": "^1.0.1",
     "canvas-testbed": "^1.0.2",
     "color-style": "^1.0.0",
@@ -33,7 +36,9 @@
   },
   "scripts": {
     "test": "node test.js",
-    "line": "beefy --index=./demo/line.html ./demo/line.js",
+    "line": "beefy --index=./demo/dev.html ./demo/line.js",
+    "triangulate": "beefy --index=./demo/dev.html ./demo/triangulate.js",
+    "build-triangulate": "browserify demo/triangulate.js | uglifyjs -cm > demo/static/triangulate.js",
     "build-line": "browserify demo/line.js | uglifyjs -cm > demo/static/line.js"
   },
   "keywords": [
