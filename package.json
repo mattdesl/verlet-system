@@ -9,6 +9,7 @@
     "email": "dave.des@gmail.com",
     "url": "https://github.com/mattdesl"
   },
+  "private": true,
   "dependencies": {
     "array-range": "^1.0.1",
     "as-number": "^1.0.0",
@@ -31,7 +32,8 @@
     "xtend": "^4.0.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "line": "beefy --index=./demo/line.html ./demo/line.js"
   },
   "keywords": [
     "verlet",

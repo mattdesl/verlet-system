@@ -2,7 +2,7 @@
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
-high level 2D and 3D verlet integration
+Tiny 2D and 3D verlet physics system. WIP.
 
 ## Usage
 
