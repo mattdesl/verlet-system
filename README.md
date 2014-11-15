@@ -122,6 +122,19 @@ npm run build-triangulate
 
 Should work with any tool that consumes CommonJS (i.e. jspm, DuoJS, browserify, webpack).
 
+## comparisons
+
+This is not meant to be as feature-complete as choices like [verlet-js](https://github.com/subprotocol/verlet-js), [PhysicsJS](https://github.com/wellcaffeinated/PhysicsJS), or [matter-js](http://brm.io/matter-js/). Some novel goals of this project:
+
+- works in 2D or 3D
+- no assumptions about rendering (i.e. works in WebGL, SVG, etc)
+- no assumptions about interactions or geometries
+- modular, e.g. user may not need to use constraints (as in `triangulate` demo) 
+- works on bare objects and arrays, easy to build your own systems on top of
+- uses a bounding box rather than just a Y value for "floor"
+
+Once gl-matrix is split into gl-vec2 and gl-vec3, the final size will be far smaller.
+
 ## License
 
 MIT, see [LICENSE.md](http://github.com/mattdesl/verlet-system/blob/master/LICENSE.md) for details.
